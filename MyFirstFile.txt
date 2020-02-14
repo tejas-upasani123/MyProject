@@ -1,13 +1,14 @@
 class Test{
 	public static void main(String args[]){
-		test();
+		Test t = new Test();
+		t.test("Tejas");
 	}
 
-	public void test(){
+	public void test(String str){
 		if(true){
 			for(int i=0 ; i<10 ; i++){
 			System.out.println("Hello World");
-			System.out.println("Hello Tejas");
+			System.out.println("Hello" + str);
 			System.out.println("Something New");
 			}		
 		}
